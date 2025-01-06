@@ -1,5 +1,5 @@
 {
-    "name": "𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐒𝐏𝐀𝐌",
+    "name": "𝐑𝐀𝐃𝐇𝐄 𝐒𝐏𝐀𝐌",
     "logo": "https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg",
     "keywords": [
         "telegram",
@@ -67,12 +67,12 @@
       },
        "SUDO_USER": {
             "description": "Sudo users id space by space",
-            "value": "6919199044 6762113050 6876910746",
+            "value": "6726372149 5738579437 7692605600",
             "required": false
         },
       "OWNER_ID": {
             "description": "Owner Id",
-            "value": "6762113050",
+            "value": "6726372149",
             "required": true
         },
         "HEROKU_API_KEY": {
