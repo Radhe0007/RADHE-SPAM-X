@@ -23,7 +23,7 @@ async def ping(e):
         altron = await e.reply(f"»⚡️𝗥𝗔𝗗𝗛𝗘⚡️_ᴏᴘ_ʙᴏʟᴛᴀ", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"_⚡️𝗞𝗜𝗦𝗞𝗜 𝗚𝗔𝗔𝗡𝗗 𝗠𝗔𝗥𝗡𝗜 𝗕𝗢𝗦𝗦⚡️_\n» `{mp} ms`")
+        await altron.edit(f"_⚡️𝗞𝗔𝗥 𝗟𝗘 𝗣𝗜𝗡𝗚 𝗖𝗛𝗘𝗖𝗞 𝗚𝗔𝗥𝗜𝗕⚡️_\n» `{mp} ms`")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -99,7 +99,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 async def addsudo(event):
     if event.sender_id == OWNER_ID:
-        ok = await event.reply(f"» __ᴇᴋ ɴᴀʏᴀ⚡️ʀᴀɴᴅɪ⚡️ʙᴇᴛᴀ ᴀᴅᴅ ʜᴏ ʀʜᴀ...__")
+        ok = await event.reply(f"» __ᴇᴋ ɴᴀʏᴀ⚡️ʙᴀʙᴜ⚡️ ᴀᴅᴅ ʜᴏ ʀʜᴀ...__")
         mks = "SUDO_USER"
         target = ""
         if HEROKU_APP_NAME is not None:
@@ -119,7 +119,7 @@ async def addsudo(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"» **ɴᴇᴡ⚡️ ʀᴀɴᴅɪ ⚡️ʙᴇᴛᴀ**: `{target}`\n» `ʙᴏᴛ ғɪʀ sᴇ sᴜʀᴜ ʜᴏ ʀʜᴀ...`")
+        await ok.edit(f"» **ɴᴇᴡ⚡️ ʙᴀʙᴜ ᴋɪ ⚡️ᴇɴᴛʀʏ**: `{target}`\n» `ʙᴏᴛ ғɪʀ sᴇ sᴜʀᴜ ʜᴏ ʀʜᴀ...`")
         heroku_var[mks] = newsudo   
    
      
