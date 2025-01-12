@@ -12,7 +12,7 @@ PythonButton = [
         Button.url("⚡️𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡️", "https://t.me/BOT_SUPPORT_GROUP7")
         ],
         [
-        Button.url("⚡️𝗥𝗘𝗣𝗢⚡️", "https://github.com/itzshukla/STRANGER-SPAM-X/fork")
+        Button.url("⚡️𝗥𝗘𝗣𝗢⚡️", "https://github.com/itzshukla/Rishubot")
         ]
         ]
 
